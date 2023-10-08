@@ -1,155 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mailbox User Panel</title>
-    <link rel="icon" type="image/x-icon" href="assets/files/fav.svg">
-    <link rel="stylesheet" href="assets/css/anonymouslyask.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:wght@300&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c516bc1882.js" crossorigin="anonymous"></script>
-    <style>
-        @font-face {
-  font-family:bnFont;
-  src: url(assets/fonts/bnf.ttf);
-}
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Comfortaa', cursive;
-}
-body {
-  background: linear-gradient(135deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  height: 100vh;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-.container{
-  width: 100% ;
-  height: 100vh ;
-  min-height: 60rem ;
-  /* background-color: rgb(68, 162, 255) ; */
-  display: flex ;
-  flex-direction: column ;
-  align-items: center ;
-  /* background-color: #08AEEA;
-  background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%); */
-}
-.form_box{
-  width: 90vw ;
-  max-width: 30rem ;
-  background-color: rgb(255, 255, 255) ;
-  border-radius: 1.5rem ;
-  display: flex ;
-  flex-direction: column ;
-  padding: 1.95rem 2rem ;
-  margin-top: 7vh;
-}
-.p1{
- /* font-family: 'Bruno Ace', cursive;*/
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-  /* font-family: 'Ubuntu', sans-serif; */
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.8rem ;
-  font-weight: bold ;
-  margin-top:0rem ;
-  color: rgb(29, 132, 236) ;
-
-}
-.p1 span{
-  font-size: 1.5rem ;
-}
-
-.p_001{
-  font-size:.6rem ;
-  font-weight: bold ;
-  margin-bottom: 1.4rem ;
-  color: rgb(29, 132, 236) ;
-}
-.p_2{
-  padding: 1.3rem;
-  text-align:justify;
-
-
-}
-textarea{
-  padding:1rem 1.2rem ;
-  margin-top:.5rem ;
-  font-weight: normal;
-  font-size: 1rem ;
-  font-family: 'Comfortaa', cursive;
-  max-width: 32.7rem ;
-  border: 1px solid dodgerblue ;
-  border-radius:.5rem ;
-  resize: none ;
-}
-
-textarea{
-  min-height: 10rem ;
-
-
-}
-.credit{
-   width: 90vw;
-   max-width: 35rem;
-   height: 3rem;
-   margin-top: 250px;
-   padding-bottom: 10rem;
-   text-align: center;
-   text-decoration: none ;
-}
-.p2,.p3{
-  font-family: 'Comfortaa', cursive;
-  font-size:.8rem ;
-  font-weight: normal ;
-  margin-top: 0.2rem ;
-  color: white ;
-}
-.a1{
-  font-size: .85rem ;
-  font-weight:400 ;
-  text-decoration: none ;
-  color: white ;
-  letter-spacing:.2px ;
-}
-
-
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/x-icon" href="assets/files/fav.svg">
+  <title>Ask me anonymously | Seddike Tanvir</title>
+  <link rel="stylesheet" href="assets/css/anonymouslyask.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:wght@300&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c516bc1882.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <div class="container">
-    <form class="form_box">
-      <p class="p1">MailBox | <span>Anonymous</span></p>
-      <p class="p_001">Write your mind anonymously...</p>
-      <textarea id="msg" placeholder="Write your mind!" ></textarea>
+<body oncontextmenu="return false;">
+  <div class="container">
+    <p class="site_logo">Seddike Tanvir | <span>Ask anonymously </span></p>
+    <a href="https://seddikemt.web.app/"><button title="Return to Homepage" id="menu_btn"><i class="fa-solid fa-house" id="menu_icn"></i></button></a>
+    <form class="form_box" onsubmit=" sendEmail(); reset(); return false; " >
+      <!-- <p class="p1">MailBox | <span>Anonymous</span></p> -->
+      <!-- <p class="p_1">Write your mind anonymously...</p> -->
+      <p class="p_1">Someone asked you 🔒anonymously...</p>
+      <textarea id="msg" placeholder="Write your mind to Seddike..." rows="5"></textarea>
     </form> 
+      <!-- <button id="send" type="submit">Send <i class="fa-solid fa-paper-plane"></i></button> -->
+
+    <br>  <br>  <br>  <br> 
     
     <div class="credit">
-      <p class="p2" >Copyright &copy;2023 <a class="a1">| MailBox</a></p>
-      <p class="p3" >Devloped by <a class="a1">Seddike Tanvir</a></p>
+      <p class="p2" >Copyright &copy;2023 <a class="a1" href="http://usemailbox.web.app/">| MailBox</a></p>
+      <p class="p3" >Devloped by <a class="a1" href="index.html">Seddike Tanvir</a></p>
     </div>
     
   </div>
-
-
-
-</body>
+  
 </html>
+
