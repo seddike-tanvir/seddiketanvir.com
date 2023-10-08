@@ -114,10 +114,10 @@ html{
   max-height: 40vh;
 }
 #send{
-  padding:.4rem.7rem ;
-  border-radius:.5rem ;
-  background-color: rgb(0, 128, 255) ;
-  color: white ;
+  padding:.5rem .7rem ;
+  border-radius:2rem ;
+  background-color: rgb(0, 0, 0) ;
+  color: rgb(255, 255, 255);
   font-size: 1rem ;
   font-weight: bolder ;
   width: 8rem;
@@ -130,7 +130,7 @@ html{
 }
 #send:hover{
   background-color: rgb(255, 255, 255) ;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 textarea{
   min-height: 10rem ;
