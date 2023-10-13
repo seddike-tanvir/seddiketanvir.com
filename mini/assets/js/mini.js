@@ -12,6 +12,17 @@
   let expandLinks = document.querySelector('#link_more');
   let minimizeLinks = document.querySelector('#link_less');
   let expandedLinkBox = document.querySelector('.link_box1_b');
+  let preLoader = document.querySelector('.pre-loader');
+
+
+
+
+
+// --Pre-Loader -----
+
+window.addEventListener("load", function(){
+  preLoader.style.display = "none";
+})
 
 
 
