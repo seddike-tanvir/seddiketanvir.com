@@ -12,7 +12,7 @@ function sendEmail() {
       Subject: "Anonymously Asked :) ",
       Body: 
              "Hi! You have received an anonymous messege from Mailbox | Anonymous - " 
-             +"<br> <br><br> <b>Message to you:</b> <br>" + document.getElementById("msg").value +"<br><br><br><br><br><br>"
+             +"<br> <b>Message to you:</b> <br>" + document.getElementById("msg").value +"<br><br><br><br><br><br>"
     })
     .then(
       // message => alert("Your messege sent successfully ! Thanks for your question.")
