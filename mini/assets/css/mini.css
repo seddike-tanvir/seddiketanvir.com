@@ -386,6 +386,11 @@ i{
     border: 2px solid green;
     cursor: pointer;  
 }
+#menuBar_link_btn_home{
+    box-shadow: 0 0 15px 1px rgb(199, 199, 199);
+    border: 2px solid green;
+    cursor: pointer;  
+}
 .contact_popup{
     position: fixed;
     top: 50%;
