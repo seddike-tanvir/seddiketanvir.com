@@ -40,11 +40,6 @@ preLoader.style.display = "none";
 
 
 //-----Menu Area-----//
-xBtn.onclick = function(){
-    popupWindowBG.style.display='none';
-    messegeWindow.style.display='none';
-}
-
 xMessegeWindow.onclick = function(){
     popupWindowBG.style.display='none';
     messegeWindow.style.display='none';
