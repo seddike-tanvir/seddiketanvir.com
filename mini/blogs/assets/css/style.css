@@ -196,6 +196,11 @@ body{
     /* box-shadow: 0 0 10px -1px #ffffff2d; */
     user-select: none;
 }
+.post_card:hover{
+    box-shadow:inset 0 0 10px 5px #ffffff2a;
+    box-shadow: 0 0 10px -1px #ffffff;
+    border: 1.2px solid var(--dark_color);
+}
 .p_c_header_area{
     /* width: 100%; */
     padding: 1rem 1.5rem;
@@ -237,16 +242,42 @@ body{
     font-size: .9rem;
     color: var(--white);
 }
+.readMore{
+    color:aqua;
+    font-size: .9rem;
+    
+}
+.readMore:hover{
+    color:rgb(255, 30, 0);
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+.readMore::after{
+    color:rgb(255, 30, 0);
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
 .p_c_time_area{
     /* width: 100%; */
     padding: 0rem 1rem;
     margin-bottom: 1rem;
+    display: inline-block;
 }
 .c_upTime{
     font-family: var(--bn_font_2);
     font-weight: normal;
     font-size: .8rem;
     color: var(--white);
+    display: inline-block;
+    margin-right: 2rem;
+}
+.c_readingTime{
+    font-family: var(--bn_font_2);
+    font-weight: normal;
+    font-size: .8rem;
+    color: var(--white);
+    display: inline-block;
+
 }
 /* ---Post card info end--------- */
 

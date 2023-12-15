@@ -323,7 +323,7 @@ i{
 }
 .menu_popup::-webkit-scrollbar {
     display: none;
-  }
+}
 .X_menuBar{
     background: transparent;
     color:black;
