@@ -59,8 +59,8 @@ body{
 .menuBar_area{
     width: 100%;
     box-shadow: 0 0px 10px 4px rgba(194, 194, 194, 0.336);
-    background-color: #1387fc;
-    /* background-color: var(--dark_color); */
+    /*  background-color: #1387fc;*/
+    background-color: var(--dark_color); 
     padding: 20px 0px;
 }
 .site_logo{
@@ -90,7 +90,7 @@ body{
     color:var(--clr5);
     padding: 7px 7px;
     border-radius: 10px;
-    border: 2px solid #1387fc;
+    border: 2px solid var(--dark_color);
     position: absolute;
     top: 50%;
     transform: translatey(-50%);
