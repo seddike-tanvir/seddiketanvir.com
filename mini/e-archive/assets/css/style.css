@@ -144,12 +144,13 @@ body{
     font-family: var(--bn_font_1);
     font-weight: 600;
     color: #0059ff;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-align: center;
     padding: .5rem 1rem 2rem 1rem;
     margin: -1rem 1rem -2rem 1rem;
     /* border: 1px solid; */
     display: inline-block;
+    transition: .7s;
 }
 .card hr{
     margin-bottom: 1rem;
@@ -166,10 +167,10 @@ body{
   font-weight: 900;
   color: coral;  
   display: inline-block;
-  
+  transition: .5s;
 }
-.btn_caption i{
-    color: coral;
+.btn_caption:hover{
+    color: rgb(255, 0, 0);  
 }
 .btn{
     padding: 7px 15px 5px 15px;
@@ -185,14 +186,16 @@ body{
     font-weight: 410;
 }
 .btn:hover{
-    background-color:#2494f0;
+    background-color:#1792f7;
     color:#ffffff;
-    /* box-shadow: 0 0 10px -1px #929292; */
+    border-radius: 5px;
+    box-shadow: 0 0 10px -1px #0000006e;
 }
 .btn span{
     font-size: .75rem;
     font-family: var(--bn_font_2);
     display: block;
+    font-weight: 400;
 }
 
 
