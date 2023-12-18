@@ -80,6 +80,8 @@ a{
     border-radius: 10Px;
     border: 3px solid #4ea8fc;
     box-shadow: 0 0 30px 0px var(--clr2);
+    box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.342);
+
 }
 .pic{
     width: 17rem;
@@ -237,7 +239,7 @@ a{
     background-color: rgb(255, 255, 255);
     border: 1px white;
     border-radius: 12Px;
-    box-shadow: 0 0 30px 0px var(--clr2);
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.342);
     transition: .5s;
 
 }
@@ -283,7 +285,7 @@ i{
     margin: 3px;
     font-size: 1rem;
     transition: .8s;
-    box-shadow: 0 0 30px 0px var(--clr2);
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.342);
     transition: .8s;
     font-weight: 500;
     border: none;
