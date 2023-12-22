@@ -12,6 +12,7 @@
     --mini_white: #ffffffe5;
     --bn_font_1: paapri;
     --bn_font_2: 'Hind Siliguri', sans-serif;
+    --bn_font_3: 'Baloo Da 2', sans-serif;
   }
 
 
@@ -182,7 +183,7 @@ body{
     background-color: #caffe7;
     color:#000000;
     transition: .4s;
-    font-family: var(--bn_font_2);
+    font-family: var(--bn_font_3);
     font-weight: 410;
 }
 .btn:hover{
@@ -192,8 +193,8 @@ body{
     box-shadow: 0 0 10px -1px #0000006e;
 }
 .btn span{
-    font-size: .75rem;
-    font-family: var(--bn_font_2);
+    font-size: .83rem;
+    font-family: var(--bn_font_3);
     display: block;
     font-weight: 400;
 }
