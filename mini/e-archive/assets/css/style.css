@@ -193,7 +193,7 @@ body{
     box-shadow: 0 0 10px -1px #0000006e;
 }
 .btn span{
-    font-size: .83rem;
+    font-size: .81rem;
     font-family: var(--bn_font_3);
     display: block;
     font-weight: 400;
