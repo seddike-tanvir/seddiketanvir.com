@@ -30,7 +30,7 @@ window.addEventListener("load", function(){
 //   ui_icon.onclick = function(){
 //     document.body.classList.toggle('light_theme');
 //     if(document.body.classList.contains('light_theme')){
-//       document.querySelector('#img').src = 'assets/files/sun.png';           
+//       document.querySelector('#img').src = 'assets/files/sun2.png';           
 //     }else{
 //       document.querySelector('#img').src = 'assets/files/moon.png';
 
@@ -43,7 +43,7 @@ ui_icon.onclick = function(){
   if(document.body.classList.contains('light_theme')){
     document.querySelector('#img').src = 'assets/files/moon.png';
   }else{
-    document.querySelector('#img').src = 'assets/files/sun.png';
+    document.querySelector('#img').src = 'assets/files/sun2.png';
   }
 }
 
