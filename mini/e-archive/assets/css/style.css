@@ -56,6 +56,7 @@ body{
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 .menuBar_area{
     /* position: sticky; */
@@ -117,7 +118,52 @@ body{
     display: block;
     padding: 1.2rem;
 }
+
 /* >>>>>>>>>>>>>>>>>>>> Header area end <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>> Reminder area start <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.reminder_area{
+    /* width: 100vw; */
+    background-color: transparent;
+}
+.ticker_wrap{
+    background-color: #eaf3f8;
+}
+.ticker_heading{
+    text-align: center;
+    /* padding-top: 5px; */
+    /* margin-bottom: -.3rem; */
+    font-family: var(--bn_font_1);
+    font-size: 1.5rem;
+    font-weight: 60;
+    color: rgb(255, 0, 0);
+}
+.ticker{
+    background-color: #eaf3f8;
+}
+.ticker_item{
+    display: inline;
+    padding: 5px 5rem;
+    color: #ff0404;
+}
+.ticker_item p{
+    color: #000000;
+    display: inline-block;
+    font-family: var(--bn_font_3);
+    font-size: 1.1rem;
+}
+
+/* >>>>>>>>>>>>>>>>>>>> Reminder area end <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
 
 
 
