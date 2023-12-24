@@ -151,7 +151,7 @@ body{
 }
 .ticker_item{
     display: inline;
-    padding: 5px 5rem;
+    padding: 5px 4rem;
     color: #ff0404;
 }
 .ticker_item p{
