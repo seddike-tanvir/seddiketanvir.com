@@ -95,7 +95,7 @@ html {
 
 .avatar img {
   /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%); }
+  filter: grayscale(0%); }
 
 footer a:not(.nav-link) {
   color: inherit;
@@ -129,12 +129,20 @@ footer a:not(.nav-link) {
   .avatar {
     margin-top: -10px; }
   .about-section {
-    padding: 6.5rem 5rem 2rem !important; }
-  .skills-section,
-  .work-experience-section,
-  .education-section,
-  .contant-section {
     padding: 1.5rem 5rem 2rem !important; }
+  .skills-section,
+  .education-section,
+  .contant-section 
+    {
+  padding: 1.5rem 5rem 2rem !important; }
   .page-break {
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     page-break-before: always; } }
+
+
+
+/* code by seddike */
+
+.credit_txt{
+  font-size: .7rem;
+}
