@@ -286,7 +286,7 @@ i{
 .form_text_box_3{
     border: 1px solid rgb(206, 206, 206);
     border-radius: 8px;
-
+    color: var(--clr5);
 }
 .form_text_box_1:hover,
 .form_text_box_2:hover,
