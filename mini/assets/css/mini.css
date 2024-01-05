@@ -167,7 +167,7 @@ body{
     text-align: center;
     border-radius:3px;
     margin-top: 1.5rem;
-    font-size: 1rem;
+    font-size: .9rem;
     transition: .8s;
     box-shadow: 0 0 10px 0px var(--clr2);
     transition: .55s;
@@ -241,7 +241,7 @@ i{
     text-align: center;
     border-radius:1rem;
     margin: 3px;
-    font-size: 1rem;
+    font-size: .9rem;
     transition: .8s;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.342);
     transition: .8s;
@@ -256,21 +256,22 @@ i{
     /* background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%); */
 }
 
-#send_msg_box{
-    padding-left: 5vw;
-}
+
 .form_box{
     background-color: transparent;
+    margin-left: 2vw;
+}
+.form_box input::placeholder,
+.form_box textarea::placeholder{
+    color: rgb(172, 172, 172);
 }
 .form_text_box_1,
 .form_text_box_2,
 .form_text_box_3,
 .submit_btn{
     padding: .5rem 1rem;
-    font-size: 1rem;
+    font-size: .8rem;
     margin: .5rem 0rem ;
-    border: 1px solid rgb(206, 206, 206);
-    border-radius: 8px;
     padding:.4rem 1rem ;
     margin-top:.5rem ;
     box-shadow: 0 0 10px -1px var(--clr2);
@@ -283,7 +284,14 @@ i{
 .form_text_box_1,
 .form_text_box_2,
 .form_text_box_3{
-    color: var(--clr5);
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 8px;
+
+}
+.form_text_box_1:hover,
+.form_text_box_2:hover,
+.form_text_box_3:hover{
+    border: 1px solid rgb(36, 247, 117);
 }
 .form_text_box_1,
 .form_text_box_2,
@@ -297,7 +305,7 @@ i{
 }
 .form_text_box_2{
     width: 65%;
-    min-width: 14rem;
+    min-width: 13.5rem;
 }
 .form_text_box_3{
     display: block;
@@ -307,13 +315,19 @@ i{
     padding: 1.2rem 1.2rem;
 }
 .submit_btn{
-    margin: 1rem 1rem 0rem 1rem;
+    margin: 1.5rem 0rem 0rem 1rem;
     border-radius: 30px;
     background-color: #2AF598;
     background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 50%);    color: black ;
     font-weight: bolder;
     padding: .6rem 1.5rem;
     cursor: pointer;
+    border: none;
+    box-shadow: 0 0 20px 1px var(--clr2);
+}
+.submit_btn:hover,
+.submit_btn::after{
+    margin: 1.3rem 0rem 0.2rem 1rem;
 }
 
 
