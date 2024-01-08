@@ -13,7 +13,7 @@
     --clr5:  #ffffff;
 }
 .light_theme{
-    --clr4:  #ffffff;
+    --clr4:   #ffffff;
     --clr5:  #000000;
 
 }
@@ -181,14 +181,18 @@ body{
 }
 .link_box1_a,
 .link_box1_b{
-    display: flex;
     justify-content: space-evenly;
     margin: auto;
     margin-bottom: 1rem;
     width: 45rem;
     max-width: 78%;
     /* background-color: #10ff38; */
-
+}
+.link_box1_a{
+    display: flex;
+}
+.link_box1_b{
+    display: none;
 }
 .link{
     width: 2.3rem;
