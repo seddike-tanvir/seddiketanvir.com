@@ -52,7 +52,7 @@ body{
 
 /* >>>>>>>>>>>>>>>>>>>> Header area started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .header{
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
 }
@@ -60,7 +60,7 @@ body{
     /* position: sticky; */
     width: 100%;
     box-shadow: 0 0px 10px 4px rgba(194, 194, 194, 0.336);
-    background-color: #1387fc;
+    background-color: #234f79;
     /* background-color: var(--dark_color); */
     padding: 20px 0px;
 }
@@ -91,7 +91,7 @@ body{
     color:var(--clr5);
     padding: 7px 7px;
     border-radius: 10px;
-    border: 2px solid #1387fc;
+    border: 2px solid #234f79;
     position: absolute;
     top: 50%;
     transform: translatey(-50%);
@@ -130,6 +130,7 @@ body{
     /* background-color: antiquewhite; */
     background-color: var(--dark_color);
     padding-bottom: 8rem;
+
 }
 .post_area{
     min-height: 50rem;
@@ -174,6 +175,7 @@ body{
     margin: auto;
     margin-bottom: 2rem;
     /* margin-top: 1rem; */
+
 }
 .post_card_wrapper{
     max-width: 100vw;
@@ -183,12 +185,29 @@ body{
     align-items: flex-start;
     flex-wrap:wrap;
     margin-bottom: 4rem;
+    padding-top: 9.5rem;
 }
-.post_card_wrapper div{
+.p_card{
     width: 31rem;
     max-width: 93%;
     margin: auto;
-
+    /* position: relative; */
+    /* background-color: #1387fc; */
+}
+.p_content{
+    /* position: relative; */
+}
+.p_content_header{
+    display: inline-block;
+    /* margin-bottom: 1rem; */
+    background-color: #1387fc;
+    /* position: absolute; 
+    right: 1rem;
+    top: 1rem;  */
+    padding: .5rem 2rem;
+}
+.p_content_header p{
+    color: white;
 }
 /* ---Post card info started-------------------- */
 .fb_post_card{
@@ -208,6 +227,7 @@ body{
     width: 31rem;
     max-width: 100%;
     height: auto;
+    min-height: 20rem;
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 3rem;
