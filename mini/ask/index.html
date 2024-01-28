@@ -22,11 +22,11 @@
     <p class="site_logo"><a href="https://seddikemt.web.app/" class="xtr_links_1">Seddike Tanvir</a> | 
       <span><a href="https://seddikemt.web.app/portfolio/" class="xtr_links_1">Ask anonymously </a></span></p>
     <a href="https://seddikemt.web.app/"><button title="Return to Homepage" id="menu_btn"><i class="fa-solid fa-house" id="menu_icn"></i></button></a>
-    <form class="form_box" onsubmit=" sendEmail(); reset(); return false; " >
+    <form class="form_box" onsubmit=" sendEmail(); reset(); return false; " name="submit-to-google-sheet">
       <!-- <p class="p1">MailBox | <span>Anonymous</span></p> -->
       <!-- <p class="p_1">Write your mind anonymously...</p> -->
       <p class="p_1">Ask anything 🔒anonymously...</p>
-      <textarea id="msg" placeholder="Write your mind to Seddike..." rows="5"></textarea>
+      <textarea id="msg" placeholder="Write your mind to Seddike..." rows="5" name="messeges"></textarea>
       <button id="send" type="submit">Send <i class="fa-solid fa-paper-plane"></i></button>
     </form> 
       <!-- <button id="send" type="submit">Send <i class="fa-solid fa-paper-plane"></i></button> -->
@@ -43,6 +43,7 @@
   <script src="assets/js/anonymouslyask.js"></script>
   <script src="assets/js/smtp.js"></script>
   <script src="assets/js/sweetalart.js"></script>
+  <script src="assets/js/datasheet.js"></script>
 
 
 </body>

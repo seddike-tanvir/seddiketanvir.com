@@ -9,9 +9,9 @@ function sendEmail() {
       SecureToken: "0c816fe8-5970-40be-a50f-bdb07b6d9860",
       To: "mtstech03@gmail.com" ,
       From: "mboxreply@gmail.com",
-      Subject: "Anonymously Asked :) ",
+      Subject: "Messege from subscription box . . . ",
       Body: 
-             "Hi! You have received an anonymous messege from 'Resume contact form'  - "
+             "Hi! You have received a messege from 'Website subscription messege box'  - "
              + "<br> <b>Name:</b> " + document.getElementById("name").value 
              + "<br> <b>Email:</b> " + document.getElementById("from").value  
              +"<br> <b>Message to you:</b> <br>" + document.getElementById("msg").value +"<br><br><br><br><br><br><br><br><br><br><br>"
