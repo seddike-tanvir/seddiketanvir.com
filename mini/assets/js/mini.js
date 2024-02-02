@@ -65,7 +65,7 @@ xMenuBarBtn.onclick = function(){
 let typed = new Typed('#element', {
   strings: [' Learner .', ' Web Devloper .', ' Tech Researcher .'],
   typeSpeed: 150,
-  backSpeed: 150,
+  backSpeed: 30,
   loop: true,
 });
   expandLinks.onclick = function(){

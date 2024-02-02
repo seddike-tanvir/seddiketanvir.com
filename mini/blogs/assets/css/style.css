@@ -1,18 +1,3 @@
-/*-------- কাস্টম & font ইন্সটল--------- */
-@font-face{
-    font-family: paapri;
-    src: url(../../../assets/fonts/Paapri.ttf);
-}
-
-/*-------- created varribles --------- */
-:root {
-    --ash_color: #234f79;
-    --dark_color: #18222d;
-    --white: #ffffff;
-    --mini_white: #ffffffe5;
-    --bn_font_1: paapri;
-    --bn_font_2: 'Hind Siliguri', sans-serif;
-  }
 
 
  @media screen and (min-width: 335px) {
@@ -79,8 +64,8 @@ body{
 
 }
 .site_logo span{
-    /* padding: 1rem; */
-    font-size: 1.5rem;
+    font-family: var(--bn_font_3);
+    font-size: 1.7rem;
     font-weight: 300;
     color: rgb(255, 255, 255);
     background-color: transparent;

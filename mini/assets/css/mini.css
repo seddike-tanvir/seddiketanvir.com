@@ -1,16 +1,11 @@
+
+
 *{
     margin: 0;
     padding: 0;
     /* font-family: 'Ubuntu', sans-serif; */
     font-family: 'Comfortaa', cursive;
     user-select: none;
-}
-:root{
-    --clr1: rgba(240, 54, 54, 0.705);
-    --clr2: #00000028;
-    --clr3: #10ff38;
-    --clr4:  #000000;
-    --clr5:  #ffffff;
 }
 .light_theme{
     --clr4:   #ffffff;
@@ -420,6 +415,10 @@ i{
     display: block;
     text-align: center;
 }
+.menuBar_link_box a span{
+    font-family: var(--bn_font_2);
+}
+
 .menuBar_link_btn{
     padding: .3rem 1rem;
     color: #000000;
