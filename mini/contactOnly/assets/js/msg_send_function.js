@@ -11,7 +11,7 @@ function sendEmail() {
       From: "mboxreply@gmail.com",
       Subject: "Messege from subscription box . . . ",
       Body: 
-             "Hi! You have received a messege from 'Website subscription messege box'  - "
+             "Hi! You have received a messege from 'ContactOnly messege box'  - "
              + "<br> <b>Name:</b> " + document.getElementById("name").value 
              + "<br> <b>Email:</b> " + document.getElementById("from").value  
              +"<br> <b>Message to you:</b> <br>" + document.getElementById("msg").value +"<br><br><br><br><br><br><br><br><br><br><br>"
