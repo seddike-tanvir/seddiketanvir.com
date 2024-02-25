@@ -1,3 +1,4 @@
+let bodyTag = document.getElementsByTagName('body');
 let contactBtn = document.querySelector('.get_in_touch_box_btn_1');
 let mailBoxBtn = document.querySelector('.get_in_touch_box_btn_1_a');
 let xBtn = document.querySelector('.X');
@@ -73,11 +74,13 @@ if(document.body.classList.contains('light_theme')){
 // }
 contactBtn.onclick = function(){
   fullWindow.style.display='block'; 
+  // bodyTag.style.filter = "blur(10px)";
   xBtn.style.display='block';
   contactWindow.style.display='block';
 }
 mailBoxBtn.onclick = function(){
   fullWindow.style.display='block'; 
+  // bodyTag.style.filter = "blur(10px)";
   xBtn.style.display='block';
   mailBoxWindow.style.display='block';
 }
