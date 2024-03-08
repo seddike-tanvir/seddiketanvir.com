@@ -78,8 +78,8 @@ body{
 
 }
 .site_logo span{
-    /* padding: 1rem; */
-    font-size: 1.5rem;
+    font-family: var(--bn_font_3);
+    font-size: 1.7rem;
     font-weight: 300;
     color: rgb(255, 255, 255);
     background-color: transparent;
