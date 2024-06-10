@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+
+}
+.container{
+  width: 100% ;
+  height: 100vh ;
+  min-height: 60rem ;
+  background-color: rgb(68, 162, 255) ;
+  display: flex ;
+  flex-direction: column ;
+  align-items: center ;
+
+}
+.form_box{
+  width: 90vw ;
+  max-width: 30rem ;
+  background-color: white ;
+  border-radius: 1rem ;
+  display: flex ;
+  flex-direction: column ;
+  padding: 1.95rem 2rem ;
+  margin-top: 7vh;
+}
+.p1{
+ /* font-family: 'Bruno Ace', cursive;*/
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem ;
+  font-weight: bold ;
+  margin-top:.2rem ;
+  color: rgb(29, 132, 236) ;
+
+}
+.p_1{
+  font-size:.8rem ;
+  font-weight: bold ;
+  margin-bottom: 1.4rem ;
+  color: rgb(29, 132, 236) ;
+}
+.p_2{
+  padding: 1.3rem;
+  text-align:justify;
+
+
+}
+input, textarea, button{
+  padding:.4rem.7rem ;
+  margin-top:.5rem ;
+  font-weight: normal;
+  font-size: 1rem ;
+  font-family: 'Comfortaa', cursive;
+  max-width: 32.7rem ;
+  border: 1px solid dodgerblue ;
+  border-radius:.5rem ;
+  resize: none ;
+}
+button{
+  background-color: dodgerblue ;
+  color: white ;
+  font-weight: bolder ;
+  border: 1px solid dodgerblue ;
+  margin-top: .9rem ;
+}
+textarea{
+  min-height: 10rem ;
+}
+.credit{
+   width: 90vw;
+   max-width: 35rem;
+   height: 3rem;
+   margin-top: 1rem;
+   text-align: center;
+   text-decoration: none ;
+}
+.p2,.p3{
+  font-family: 'Comfortaa', cursive;
+  font-size:.9rem ;
+  font-weight: normal ;
+  margin-top: 0.2rem ;
+  color: white ;
+}
+.a1{
+  font-size: 1rem ;
+  font-weight:400 ;
+  text-decoration: none ;
+  color: white ;
+  letter-spacing:.2px ;
+}
+
