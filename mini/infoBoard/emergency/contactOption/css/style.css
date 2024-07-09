@@ -11,10 +11,9 @@
     height: 30rem;
 }
 .card_wrapper{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 5vh;
-
 }
 .card_heading{
     font-family: var(--bn_font_5);
@@ -26,22 +25,26 @@
     font-size: 1.2rem;
 }
 .phn_number{
-    margin-left: 5vw;
+    margin-left: 1vw;
 }
 .phn_number span{
     user-select:all;
     cursor: pointer;
-
+    transition: .2s;
 }
 .phn_number i{
     font-size: .9rem;
 }
-.phn_number span:hover{
+.phn_number span:hover,
+.phn_number span::after{
     font-weight: 700;
     font-size: 1.9rem;
     padding: 0;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    padding-top: .1rem;
     /* border: 1px solid rgb(34, 255, 34); */
-    border-radius: 10px;
+    border-radius: 1.7rem;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
