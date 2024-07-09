@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--bn_font_5);
+    font-size: 1rem;
+    box-sizing: border-box;
+    user-select: none;
+}
+.main{
+    width: 100%;
+    height: 30rem;
+}
+.card_wrapper{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 5vh;
+
+}
+.card_heading{
+    font-family: var(--bn_font_5);
+    font-size: 2rem;
+}
+.phn_number,
+.phn_number span{
+    /* display: block; */
+    font-size: 1.2rem;
+}
+.phn_number{
+    margin-left: 5vw;
+}
+.phn_number span{
+    user-select:all;
+    cursor: pointer;
+
+}
+.phn_number i{
+    font-size: .9rem;
+}
+.phn_number span:hover{
+    font-weight: 700;
+    font-size: 1.9rem;
+    padding: 0;
+    /* border: 1px solid rgb(34, 255, 34); */
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+
+.credit{
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+}
+.p2{
+    text-align: center;
+}
