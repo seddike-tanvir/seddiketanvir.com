@@ -92,12 +92,13 @@ body{
     
 }
 .name{
-    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: var(--bn_font_5);
     color: #000000;
     font-size: 2rem;
-    font-weight: 1200;
+    font-weight: 500;
     text-align: center;
     margin-top: 1rem;
+
 }
 .bio{
     /* font-family: 'Ubuntu', sans-serif; */
@@ -110,6 +111,11 @@ body{
 }
 #element{
     color:var(--clr3);
+    /* color: #15ff00; */
+    font-weight: bold;
+    /* background-color: #000000; */
+    /* padding: 0px 5px; */
+    /* font-family: var(--bn_font_5); */
 }
 .section_container_box{
     display: flex;
