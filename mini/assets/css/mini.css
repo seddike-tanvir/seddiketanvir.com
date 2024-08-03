@@ -68,17 +68,17 @@ body{
     margin-bottom: 8vh;
 }
 .intro_box{
-    /* height: 25.2rem; */
+    /* height: 60vh; */
     width: 21rem;
     max-width: 76%;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     border-radius: 10Px;
-    border: 3px solid #4ea8fc;
-    box-shadow: 0 0 30px 0px var(--clr2);
-    box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.342);
+    /* border: 3px solid #4ea8fc; */
+    /* box-shadow: 0 0 30px 0px var(--clr2); */
+    /* box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.342); */
 
 }
-.pic{
+.profile_pic{
     width: 17rem;
     height: auto ;
     max-width: 75%;
@@ -88,34 +88,40 @@ body{
     border-radius: 20px;
     padding: 3px;
     margin-top: 1.9rem;
-    border: 5px solid #2af59a62;
-    
+    /* border: 5px solid var(--clr5); */
+    box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.342);
 }
 .name{
     font-family: var(--bn_font_5);
-    color: #000000;
-    font-size: 2rem;
+    /* color: #000000; */
+    font-size: 2.2rem;
     font-weight: 450;
     text-align: center;
     margin-top: 1rem;
-
+    background-image: linear-gradient(to right, #5dca81 0%, #0fe6be 100%);
+    color: transparent;
+    background-clip: text;
 }
 .bio{
     /* font-family: 'Ubuntu', sans-serif; */
-    color: #1d1c1cd5;
-    font-size: 1.15rem;
+    color:var(--clr5);
+    /* color: whitesmoke; */
+    font-size: 1.1rem;
     font-weight: bolder;
     text-align: center;
     padding-top: .4rem;
     margin-bottom: 1.5rem;
 }
 #element{
-    color:var(--clr3);
+    /* color:var(--clr3); */
     /* color: #15ff00; */
-    font-weight: bold;
+    /* font-weight: bolder; */
     /* background-color: #000000; */
     /* padding: 0px 5px; */
     /* font-family: var(--bn_font_5); */
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    color: transparent;
+    background-clip: text;
 }
 .section_container_box{
     display: flex;

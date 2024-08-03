@@ -78,8 +78,8 @@ body{
     margin-top: 5vh;
     margin-bottom: 8vh;
 }
-.pic{
-    width: 10rem;
+.profile_pic{
+    width: 12rem;
     height: auto ;
     max-width: 75%;
     display: block;
@@ -92,12 +92,15 @@ body{
     
 }
 .name{
-    /* font-family: 'Ubuntu', sans-serif; */
-    color: var(--clr5);
-    font-size: 2rem;
-    font-weight:bolder;
+    font-family: var(--bn_font_5);
+    /* color: #000000; */
+    font-size: 2.2rem;
+    font-weight: 450;
     text-align: center;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
+    background-image: linear-gradient(to right, #40dd74 0%, #04dfb7 100%);
+    color: transparent;
+    background-clip: text;
 }
 
 .section_container_box{
@@ -139,7 +142,7 @@ body{
     font-size: .9rem;
     transition: .8s;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.342);
-    transition: .8s;
+    transition: .9s;
     font-weight: 500;
     border: none;
     margin: auto;
@@ -155,7 +158,9 @@ body{
     font-size: .85rem;
     font-weight: bolder;
 }
-.get_in_touch_box_btn_1:hover, .get_in_touch_box_btn_2:hover{
+.get_in_touch_box_btn_1:hover, 
+.get_in_touch_box_btn_2:hover,
+.get_in_touch_box_btn_1_a:hover{
     /* box-shadow:inset 0 0 50px 5px var(--clr2); */
     cursor: pointer;  
     background-color: #2AF598;
@@ -186,7 +191,7 @@ body{
     border: 1px white;
     border-radius: 12Px;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.342);
-    transition: .5s;
+    transition: .4s;
 
 }
 .link:hover{
