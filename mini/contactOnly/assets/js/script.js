@@ -26,26 +26,16 @@ window.addEventListener("load", function(){
 preLoader.style.display = "none";
 })
 
-// //-----Light theme as default------//
-//   ui_icon.onclick = function(){
-//     document.body.classList.toggle('light_theme');
-//     if(document.body.classList.contains('light_theme')){
-//       document.querySelector('#img').src = 'assets/files/sun2.png';           
-//     }else{
-//       document.querySelector('#img').src = 'assets/files/moon.png';
-
-//     }
-//   }
 
 //-----Dark theme as default------//
-ui_icon.onclick = function(){
-document.body.classList.toggle('light_theme');
-if(document.body.classList.contains('light_theme')){
-  document.querySelector('#img').src = 'assets/files/moon.png';
-}else{
-  document.querySelector('#img').src = 'assets/files/sun2.png';
-}
-}
+// ui_icon.onclick = function(){
+// document.body.classList.toggle('light_theme');
+// if(document.body.classList.contains('light_theme')){
+//   document.querySelector('#img').src = 'assets/files/moon.png';
+// }else{
+//   document.querySelector('#img').src = 'assets/files/sun2.png';
+// }
+// }
 
 
 
