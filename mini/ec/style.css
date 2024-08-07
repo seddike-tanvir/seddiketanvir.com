@@ -1,6 +1,20 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.card_heading{
+    font-family: var(--bn_font_10);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 1rem;
+    /* margin: 3vh 0vw; */
+    /* padding: 0vh 3vw; */
+}
+hr{
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 7vh;
+}
 
 .wrapper{
     margin-left: 5vw;
