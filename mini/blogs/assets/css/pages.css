@@ -27,6 +27,7 @@ padding: 0;
 font-family: 'Comfortaa', cursive;
 user-select: none;
 overflow-x: hidden; 
+
 }
 /* .xtr_links_1{
     text-decoration: none;
@@ -36,7 +37,7 @@ a{
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: var(--dark_color);
 }
 .pre-loader {
     background: #ffffff url(../../../assets/files/load-2.gif) no-repeat center center ;
