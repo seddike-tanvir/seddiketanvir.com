@@ -7,7 +7,7 @@
 function sendEmail() {
     Email.send({
       SecureToken: "0c816fe8-5970-40be-a50f-bdb07b6d9860",
-      To: "mtstech03@gmail.com" ,
+      To: "mboxreply@gmail.com",
       From: "mboxreply@gmail.com",
       Subject: "Messege from subscription box . . . ",
       Body: 
