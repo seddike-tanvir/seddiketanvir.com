@@ -73,7 +73,7 @@ hr{
 .line,
 .line span{
     /* display: block; */
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .line{
     width: 100%;
@@ -94,6 +94,12 @@ hr{
     border-radius: 1.7rem;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
+}
+#bolded_line{
+    font-weight: 600;
+    /* font-size: 1.2; */
+    /* color: green; */
+
 }
 
 
