@@ -342,12 +342,16 @@ i{
     font-weight: 400;
     user-select: text;
 }
+
 .txt_2b{
     padding: 0rem 0rem 0.7rem 0rem;
-    margin-top: -.4rem;
     font-size: 1rem;
     font-weight: 400;
     user-select: text;
+}
+.txt_links{
+    text-decoration: none;
+    color: #000000;
 }
 .Cpy{
     border: none;
