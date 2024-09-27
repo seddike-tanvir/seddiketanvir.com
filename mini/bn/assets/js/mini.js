@@ -63,7 +63,7 @@ xMenuBarBtn.onclick = function(){
 }
 
 let typed = new Typed('#element', {
-  strings: [' Learner .', ' Web Devloper .', ' Tech Enthusiast.'],
+  strings: [' শিক্ষার্থী .', ' ওয়েব ডেভেলপার .', ' প্রযুক্তি কৌতূহলী .'],
   typeSpeed: 150,
   backSpeed: 30,
   loop: true,

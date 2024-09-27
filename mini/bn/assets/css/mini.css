@@ -5,6 +5,7 @@
     padding: 0;
     /* font-family: 'Ubuntu', sans-serif; */
     font-family: 'Comfortaa', cursive;
+    font-family: var(--bn_font_2);
     user-select: none;
 }
 .light_theme{
@@ -470,14 +471,6 @@ i{
 }
 .languageChange{
     padding-top: 0rem;
-}
-#cO_box{
-    display: inline;    
-
-}
-#c1_box{
-    display: inline;    
-
 }
 .menuBar_footer{
     background: transparent;
