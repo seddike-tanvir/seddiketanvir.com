@@ -1,0 +1,159 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+html{
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #00abe9 0%, #07ff8f75 100%);
+}
+span{
+    cursor: pointer;
+}
+
+
+#nav_banner{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: var(--bn_font_5);
+    color: #000000;
+    padding: 1rem 0rem;
+}
+#banner_tika{
+    font-weight: 100;
+}
+hr{
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 12vh;
+}
+.infoBox{
+    width: 90vw;
+    margin: 0 auto;
+}
+.infoBox_sub1{
+    width: 85vw;
+    margin: 0 auto;
+}
+#c1{
+    font-size: 1.6rem;
+    font-weight: 1000;
+    text-align: left;
+    font-family: var(--bn_font_4);
+    color: #000000;
+    margin: 0;
+}
+
+.line{
+    font-size: 1.2rem;
+    font-weight: 550;
+    font-family: var(--bn_font_7);
+    border: 1px solid;
+    border-radius: 12px;
+    padding: .25rem 1rem;
+    display: inline-block;
+    margin: 10px 5px;
+    text-align: left;
+}
+.line_tika_1{
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+
+
+
+
+
+.infoBox_sub2{
+    width: 85vw;
+    margin: 0 auto;
+}
+#c2{
+    font-size: 1.6rem;
+    font-weight: 1000;
+    text-align: left;
+    font-family: var(--bn_font_4);
+    color: #000000;
+    margin: 0;
+    margin-top: 2.5rem;
+}
+#card_2{
+    border: 1px solid;
+    border-radius: 19px;
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    margin: 10px 5px;
+}
+.card_line_2,
+.card_line_3,
+.card_line_4{
+    text-align: left;
+}
+.card_line_1{
+    font-size: 1.45rem;
+    font-weight: 510;
+    text-align: center;
+    font-family: var(--bn_font_7);
+    color: #000000;
+    margin: 0px 0px 16px 0px;
+}
+.card_line_2{
+    font-size: 1.1rem;
+    font-weight: 520;
+    font-family: var(--bn_font_7);
+    color: #000000;
+    margin: 10px 0px 0px 0px;
+}
+.line_tika_2{
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
+.card_line_3,
+.card_line_4{
+        font-size: 1.1rem;
+    font-weight: 520;
+    font-family: var(--bn_font_7);
+    color: #000000;
+    margin: -1px 0px 0px 0px;
+}
+.line_tika_3,
+.line_tika_4
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+
+
+
+
+
+
+
+.credit{
+    max-width: 85vw;
+    height: 3rem;
+    margin: auto;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: none ;
+ }
+ .p2{
+   font-size:1rem ;
+   font-family: var(--bn_font_4);
+   font-weight: 700 ;
+   margin-top: 0.2rem ;
+   color: #000000;
+   cursor: pointer;
+}
