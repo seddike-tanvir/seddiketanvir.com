@@ -179,9 +179,7 @@ body{
     margin: auto;
     /* margin-top: 25rem; */
     padding-top: 1.25rem;
-    background-color: #234f79;
-
-}
+    background-color: var(--dark_color); 
 .credit{
     max-width: 70vw;
     margin: auto;

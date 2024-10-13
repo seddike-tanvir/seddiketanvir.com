@@ -284,9 +284,7 @@ body{
     margin: auto;
     /* margin-top: 25rem; */
     padding-top: 1.5rem;
-    background-color: #234f79;
-
-
+    background-color: var(--dark_color); 
 }
 .credit{
     max-width: 70vw;
@@ -295,6 +293,7 @@ body{
     padding-bottom: 1rem;
     text-align: center;
     text-decoration: none ;
+
 }
 .p2{
     font-size:1rem ;
