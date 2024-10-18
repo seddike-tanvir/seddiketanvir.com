@@ -140,16 +140,33 @@ html{
   background-color: rgb(255, 255, 255) ;
   color: rgb(0, 0, 0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .credit{
    width: 90vw;
    max-width: 35rem;
    height: 3rem;
    margin-bottom: 2rem;
-   margin-top: 3rem;
+   margin-top: 20vh;
    text-align: center;
    text-decoration: none ;
-   position: fixed;
-   bottom: 0vh;
 }
 .p2,.p3{
   font-family: 'Comfortaa', cursive;
