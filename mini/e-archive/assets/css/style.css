@@ -1,19 +1,7 @@
-/*-------- কাস্টম & font ইন্সটল--------- */
-@font-face{
-    font-family: paapri;
-    src: url(../../../assets/fonts/Paapri.ttf);
-}
+
 
 /*-------- created varribles --------- */
-:root {
-    --ash_color: #234f79;
-    --dark_color: #18222d;
-    --white: #ffffff;
-    --mini_white: #ffffffe5;
-    --bn_font_1: paapri;
-    --bn_font_2: 'Hind Siliguri', sans-serif;
-    --bn_font_3: 'Baloo Da 2', sans-serif;
-  }
+
   
   html {
     scroll-behavior: smooth;
@@ -83,6 +71,7 @@ body{
 }
 .site_logo a{
     color: rgb(255, 255, 255);
+    /* font-family: var(--bn_font_13); */
 
 }
 .site_logo span{
@@ -137,19 +126,22 @@ body{
 .nav_UL li{
     padding: 1rem 0.5rem;
     list-style-type: none;
-
+    width: 20%;
 }
 .nav_UL li a{
+    /* font-family: var(--bn_font_13); */
     color: #000000;
-    font-weight: bolder;
-    transition: .3s;
+    font-weight: 900;
+    transition: .2s;
     font-size: .8rem;
 }
 .nav_UL li a:hover,
 .nav_UL li a::after{
-    color: #db7272;
-    font-weight: 600;
+    color: #0059ff;
+    font-weight: 800;
     font-size: .75rem;
+    /* font-weight: 300; */
+
 }
 
 /* >>>>>>>>>>>>>>>>>>>> Header area end <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -209,6 +201,7 @@ body{
 .main{
     width: 100%;
     padding-bottom: 10rem;
+    font-family: var(--bn_font_3);
 }
 .card{
     width: 80vw;
@@ -226,10 +219,10 @@ body{
     scroll-margin-top: 11rem;
 }
 .card_heading{
-    font-family: var(--bn_font_1);
+    font-family: var(--bn_font_2);
     font-weight: 600;
     color: #0059ff;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     text-align: center;
     padding: .5rem 1rem 2rem 1rem;
     margin: -.5rem 1rem -1rem 1rem;
@@ -267,7 +260,7 @@ body{
     background-color: #caffe7;
     color:#000000;
     transition: .4s;
-    font-family: var(--bn_font_3);
+    font-family: var(--bn_font_5);
     font-weight: 410;
 }
 .btn:hover{
@@ -277,8 +270,8 @@ body{
     box-shadow: 0 0 10px -1px #0000006e;
 }
 .btn span{
-    font-size: .81rem;
-    font-family: var(--bn_font_3);
+    font-size: .9rem;
+    font-family: var(--bn_font_5);
     display: block;
     font-weight: 400;
 }
