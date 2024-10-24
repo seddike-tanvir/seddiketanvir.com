@@ -6,7 +6,12 @@
   html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-  }
+    min-height: 100vh;
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(2,37,78,1) 0%, rgba(4,56,126,1) 19.7%, rgba(85,245,221,1) 100.2% ); */
+    background-size: cover; 
+    /* background: #000428;   */
+    /* background: -webkit-linear-gradient(to right, #004e92, #000428);   */
+}
 
  @media screen and (min-width: 335px) {
     
@@ -28,7 +33,7 @@ a{
 }
 
 body{
-    background-color: #ffffff;
+    background-color: #0066ff15;
 }
 .pre-loader {
     background: #ffffff url(../../../assets/files/load-2.gif) no-repeat center center ;
@@ -45,19 +50,20 @@ body{
 
 /* >>>>>>>>>>>>>>>>>>>> Header area started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .header{
-    position: sticky;
-    top: 0;
+    /* position: sticky; */
+    /* top: 0; */
     width: 100%;
     z-index: 1;
+    position: relative;
 }
 .menuBar_area{
     /* top: 0px; */
     width: 100%;
-    box-shadow: 0 0px 10px 4px rgba(194, 194, 194, 0.336);
-    background-color: #1387fc;
-    /* background-color: var(--dark_color); */
+    /* box-shadow:  0 1px 10px -5px rgba(9, 107, 255, 0.603); */
+    background-color: #0078f0;
+    /* background: #001e55; */
     padding: 20px 0px;
-    position: relative;
+    /* position: relative; */
 }
 .site_logo{
     /* padding: 1rem; */
@@ -85,9 +91,9 @@ body{
     /* background-color:var(--clr5); */
     background: transparent;
     color:var(--clr5);
-    padding: 7px 7px;
+    padding: 6px 6px;
     border-radius: 10px;
-    border: 2px solid #1387fc;
+    border: 2px solid transparent;
     position: absolute;
     top: 50%;
     transform: translatey(-50%);
@@ -96,7 +102,7 @@ body{
     transition: 0.4s;
 }
 #menu_icn{
-    font-size:1.35rem;
+    font-size:1.25rem;
     color: rgb(255, 255, 255);
 }
 #menu_btn:hover{
@@ -107,14 +113,17 @@ body{
     width: 25rem;
     max-width: 70vw;
     /* height: 13rem; */
-    background-image: linear-gradient(1800deg, #57fa93 0%, #58c0f5 100%);
+    background-color: transparent;
     margin: 4.5rem auto;
     display: block;
     padding: 1.2rem;
 }
 .navbar_area{
     position: sticky;
-    background-color: #ebebeb;
+    top: 0;
+    background-color: #0381ff;
+    /* background: #002364; */
+    box-shadow:  0 2px 10px -3px rgb(0, 59, 148);
     width: 100%;
     /* box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.575); */
 
@@ -139,7 +148,8 @@ body{
 }
 .nav_UL li a{
     /* font-family: var(--bn_font_13); */
-    color: #000000;
+    /* color: #000000; */
+    color: #ffffffee;
     font-weight: 900;
     transition: .2s;
     font-size: .8rem;
@@ -147,7 +157,8 @@ body{
 }
 .nav_UL li a:hover,
 .nav_UL li a::after{
-    color: #0059ff;
+    /* color: #0059ff; */
+    color: #ffffff9d;
     font-weight: 800;
     font-size: .75rem;
     /* font-weight: 300; */
@@ -217,16 +228,22 @@ body{
     width: 80vw;
     height: auto;
     border: 1px solid rgb(206, 206, 206);
-    margin: auto;
+    margin:0 auto;
     margin-top: 3.5rem;
     /* margin-bottom: 2rem; */
     border-radius: .7rem;
-    padding: 1rem;
+    padding: 1rem ;
     box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.342);
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    /* background-color: transparent; */
 }
+@media screen and (min-width: 1000px) {
+    .card{
+        max-width:60vw ;
+        }
+    }
 #video,#audio,#article,#book,#history,#quote{
-    scroll-margin-top: 11rem;
+    scroll-margin-top: 6rem;
 }
 .card_heading{
     font-family: var(--bn_font_2);
@@ -269,6 +286,8 @@ body{
     font-size: 1rem;
     background-color: #caffe7;
     color:#000000;
+    /* background-color: transparent; */
+    /* color: #ffffff; */
     transition: .4s;
     font-family: var(--bn_font_5);
     font-weight: 410;
@@ -304,7 +323,9 @@ body{
     margin: auto;
     margin-top: 8vh;
     padding-top: 1.25rem;
-    background-color: #234f79;
+    background-color: #0078f0;
+    /* background: #001e55; */
+
     /* position: relative;
     bottom: 0px ; */
 }
@@ -344,12 +365,3 @@ body{
 
 }
 
-@media screen and (min-width: 1000px) {
-
-.card{
-    max-width:60vw ;
-    }
-
-
-
-}
