@@ -245,5 +245,6 @@ textarea::after{
   text-decoration: none ;
   color: white ;
   letter-spacing:.2px ;
+  /* cursor: pointer; */
 }
 
