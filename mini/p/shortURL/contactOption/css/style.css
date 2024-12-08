@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--bn_font_5);
+    font-size: 1rem;
+    box-sizing: border-box;
+    user-select: none;
+    max-width: 100vw;
+    /* cursor: none; */
+}
+html{
+    background-color: #0066ff11;;
+}
+@media screen and (max-width: 730px) {  /*!---for mobile/tiny devices---*/
+
+    .line span:hover,
+    .line span::after{
+        font-size: 5.5vw;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        padding-top: .07rem;
+        /* padding-bottom: .45rem; */
+        font-weight: 500;
+
+    }
+}
+@media screen and (min-width: 731px) {   /*!---for pc/wide devices---*/
+
+    .line span:hover,
+    .line span::after{
+        font-size: 1.8rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        padding-top: .05rem;
+        /* padding-bottom: rem; */
+        font-weight: 700;
+
+    }
+}
+
+
+
+.header{
+    width: 80vw;
+    /* width: 100vw; */
+    margin: 0 auto;
+    /* background-color: blue; */
+}
+.card_heading{
+    font-family: var(--bn_font_10);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2vh;
+    padding-bottom: 0;
+    /* margin: 3vh 0vw; */
+    /* padding: 0vh 3vw; */
+}
+hr{
+    width: 60vw;
+    margin: 0 auto;
+}
+.main{
+    /* width: 100vw; */
+    /* max-width: 100vw; */
+    min-height:60vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.card_wrapper{
+    width: 80%;
+    margin: auto;
+    margin-top: 0vh;
+    margin-left: 5vw;
+    /* background-color: aqua; */
+}
+
+.line,
+.line span{
+    /* display: block; */
+    font-size: 1.3rem;
+
+}
+.line{
+    width: 100%;
+    max-width: 80vw;
+    /* background-color: aqua; */
+    height: 3rem;
+    border: 2px transparent;
+}
+.line span{
+    user-select:none;
+    cursor: pointer;
+    transition: .2s;
+}
+.line i{
+    font-size: .9rem;
+}
+.line span:hover,
+.line span::after{
+    /* font-weight: 700; */
+    /* border: 1px solid rgb(34, 255, 34); */
+    border-radius: 1.7rem;
+    color: #ffffff;
+    background-color: #000000;
+    /* border:2px solid  black; */
+}
+#bolded_line{
+    font-weight: 600;
+    /* font-size: 1.2; */
+    /* color: green; */
+
+}
+
+
+
+.credit{
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+    
+}
+.p2{
+    text-align: center;
+}

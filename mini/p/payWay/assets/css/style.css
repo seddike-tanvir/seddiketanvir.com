@@ -1,0 +1,238 @@
+
+:root{
+    --color_1:rgba(255, 255, 255, 0.680);
+}
+
+
+
+
+/* ***************************************************** */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+
+}
+html{
+    /* overflow-x: hidden; */
+    /* background-color: #08AEEA; */
+    /* background-image: linear-gradient(0deg, #00abe9 0%, #07ff8f75 100%); */
+    /* background-image: linear-gradient( 90deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% ); */
+    background: #021526;
+    backdrop-filter: blur(10px);
+    /* background: #121213; */
+    /* background-color: #092635;   */
+    /* background: #0c0c0c;   */
+    cursor: grab;
+}
+
+span{
+    cursor: pointer;
+}
+
+.nav_area{
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    /* width: 30rem;
+    height: auto;
+    text-align: center; */
+}
+#nav_banner{
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: var(--bn_font_5);
+    cursor: pointer;
+    margin: 2vh 0vh ;
+    display: inline-block;
+    /* color:rgba(255, 255, 255, 0.863); */
+    color: transparent;
+    background-clip: text;
+    /* color: transparent; */
+    background-image: linear-gradient( 109.6deg,  rgba(254,253,205,1) 11.2%, rgba(163,230,255,1) 91.1% );
+}
+#banner_tika{
+    font-weight: 100;
+}
+
+hr{
+    width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 12vh;
+    border: 1px solid rgb(212, 247, 169);
+}
+.infoBox{
+    width: 90vw;
+    margin: 0 auto;
+}
+.infoBox_sub1{
+    width: 85vw;
+    margin: 0 auto;
+    margin-bottom: 7vh;
+}
+#c1{
+    font-size: 1.2rem;
+    font-weight: 1000;
+    text-align: left;
+    font-family: var(--bn_font_4);
+    margin: 0;
+    color: #58f8b5c2;
+}
+#c1 span{
+    font-weight: 100;
+    font-size: 1rem;
+}
+.card_1{
+    margin-top: .5rem;
+    padding: 0rem 1.2rem;
+}
+.line{
+    font-size: 1rem;
+    /* font-weight: 550; */
+    /* font-family: var(--bn_font_7); */
+    border: 1px solid;
+    border-radius: 12px;
+    padding: .5rem 1.5rem;
+    display: inline-block;
+    margin: 10px 5px;
+    /* text-align: left; */
+    /* color: var(--color_1); */
+
+}
+.line_tika_1{
+    font-size: 1rem ;
+    font-weight: 200;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+
+
+
+
+
+.infoBox_sub2{
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.card_wrapper{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content:flex-start;
+    /* flex-direction:column; */
+    flex-wrap: wrap;
+    padding-left: 2vw ;
+}
+.card_2{
+    border: 1px solid #ffffffbb;
+    /* background-color: ; */
+    border-radius: 19px;
+    padding: 1rem 1.2rem;
+    /* display: inline-block; */
+    margin: 16px 15px;
+}
+.card_line_1{
+    font-size: 1.5rem;
+    /* font-weight: 510; */
+    text-align: center;
+    font-family: var(--bn_font_7);
+    color: var(--color_1);
+    margin: 0px 0px 16px 0px;
+}
+.line,
+.card_line_2,
+.card_line_3,
+.card_line_4,
+.card_line_5{
+    font-size: 1.2rem;
+    text-align: left;
+    /* color: #85FFBD; */
+    font-weight: 550;
+    font-family: var(--bn_font_7);
+    color: var(--color_1);
+}
+.card_line_2{
+    margin: 10px 0px 0px 0px;
+}
+.line_tika_1,
+.line_tika_2{
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-family: "Roboto Mono";
+    font-optical-sizing: auto;
+    display: inline-block;
+    margin-left: 1rem;
+    user-select: text;
+    /* transition: .3s; */
+}
+
+.line_tika_1:hover,
+.line_tika_2:hover,
+.line_tika_1::after,
+.line_tika_2::after{
+    color: rgb(20, 226, 82);
+}
+
+
+
+
+
+
+
+
+.credit{
+    /* width: l; */
+    max-width: 85vw;
+    height: 3rem;
+    margin: auto;
+    margin-top: 25vh;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: none ;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.p1,.p2{
+    display: inline-block;
+    font-size:1rem ;
+    font-family: var(--bn_font_4);
+    font-weight: 700 ;
+    margin-top: 0.2rem ;
+    color:rgba(245, 245, 245, 0.452);
+    cursor: pointer;
+}
+.p1 span:hover{
+    color: rgb(0, 185, 56);
+
+}
+.p2{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 750px)  {
+    #nav_banner{
+        font-size: 1.8rem;
+    }
+    .card_2{
+        margin: 16px 5px;
+    }
+
+
+}

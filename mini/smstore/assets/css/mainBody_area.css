@@ -1,0 +1,33 @@
+.gallery{
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 15px;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.432);
+}
+.gallery_title{
+    font-family: var(--bn_font_2);
+    font-weight: 600;
+    color: #4682f1;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: .5rem 1rem .5rem 1rem;
+    margin: 0em 1rem 0rem 1rem;
+    /* border: 1px solid; */
+    /* display: inline-block; */
+    transition: .7s;
+}
+.gallery > hr{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgb(206, 204, 201);
+}
+
+.gallery_area{
+    display: flex;
+    justify-content:space-around;
+    flex-flow: row wrap;
+    padding: 2rem;
+}

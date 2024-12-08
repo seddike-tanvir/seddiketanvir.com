@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+/* @media only screen and (min-width: 465px)  { */
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.site_logo{
+    padding: 1rem;
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: #1387fc;
+}
+
+.course_lebel{
+    font-size: 3rem;
+    color: #119b43;
+    text-align: center;
+    margin: 2rem;
+}
+.content_area{
+    max-width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.item_box{
+    border: .2rem solid rgb(236, 11, 11);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: .5rem;
+}
+.class_lebel{
+    font-size: 2rem;
+    color: #119b43;
+}
+ol{
+    padding-left: 2rem;
+}
+li{
+    padding: 1rem .2rem;
+}
+li a{
+    font-size:1.1rem ;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.footer{
+    max-width: 70vw;
+    height: 3rem;
+    margin: auto;
+    margin-top: 12rem;
+    text-align: center;
+    text-decoration: none ;
+ }
+ .links{
+    font-size:1.1rem ;
+    font-weight: normal ;
+    /* margin-top: 0.2rem ; */
+    color: #0e4f8d;
+    text-decoration: none;
+ }
+ .links:hover{
+    color: #ff1f01;
+    font-weight: 700;
+ }
+.credit{
+    max-width: 70vw;
+    height: 3rem;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: none ;
+ }
+ .p2{
+   font-size:1rem ;
+   font-weight: normal ;
+   margin-top: 0.2rem ;
+   color: #234f79;
+}
+.p2 a{
+    text-decoration: none;
+    color: #234f79;
+    font-size:1.01rem ;
+
+}
+
+
+
+
+

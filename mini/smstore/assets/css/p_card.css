@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+} */
+
+
+.card {
+    position: relative;
+    border: 1px solid var(--cp1) ;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    height: 19rem;
+    width: 14rem;
+    overflow: hidden;
+    margin: 3vh 5vw;
+}
+
+.card > figure {
+    width: 80%;
+    margin: 20px auto 0 auto;
+}
+
+.card > figure > img {
+    width: 100%;
+}
+.details h1,.details h2,.details h3,.details h4,.details h5,.details h6,
+.details p{
+    font-family: var(--bn_font_14);
+    font-weight: 600;
+}
+
+
+.details {
+    background-color: var(--cp1);
+    border-radius: 7px;
+    padding: 20px;
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    height: 100%;
+    transition: box-shadow .3s ease-in-out,
+                top .3s ease-in-out;
+}
+
+.card:hover .details {
+    box-shadow: -5px -5px 10px rgba(0,0,0,0.3);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.details > .min-details,
+.details > .options,
+.details > .options > .options-size,
+.details > .options > .options-colors {
+    margin-bottom: 15px;
+}
+
+.details > .min-details {
+    display: flex;
+    justify-content:space-between;
+
+}
+.details > .min-details > .name_title > span{
+    margin-top: 2px;
+
+}
+.details > .min-details > .sell_price{
+    color: #ff0800;
+    font-weight: 900;
+    /* padding-left: .45rem; */
+    width: 100%;
+    padding-right: 0;
+    text-align: right;
+    display: none;
+}
+.details > .min-details > h4 > span {
+    color: #0000008e;
+    display: block;
+    font-size: .8rem;
+    font-weight: 400;
+}
+.details > .options {
+    margin-bottom: 5px;
+}
+.details > .options h4 {
+    margin-bottom: 5px;
+}
+.details > .options p {
+    font-size: .87rem;
+}
+.details > .options ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.details > .options ul li {
+    border-radius: 50%;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    text-align: center;
+    width: 30px;
+}
+
+.options-size > ul > li {
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF;
+    font-size: .7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: background-color .3s ease-in-out;
+}
+
+.options-size > ul > li:hover {
+    background-color: #192a56;
+}
+
+.options-colors > ul > li {
+    border: none;
+}
+
+.options-colors > ul > li:nth-child(1) {
+    background-color: #FF1;
+}
+
+.options-colors > ul > li:nth-child(2) {
+    background-color: #000;
+}
+
+.options-colors > ul > li:nth-child(3) {
+    background-color: #FB0000;
+}
+
+.options-colors > ul > li:nth-child(4) {
+    background-color: #FF69B4;
+}
+
+.options-colors > ul > li:nth-child(5) {
+    background-color: #192a56;
+}
+
+.btn {
+    background-color: #192a56;
+    margin: auto;
+    border-radius: 5px;
+    color: #FFF;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 60%;
+    transition: box-shadow .3s ease-in-out,
+                transform .3s ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: 0 5px 10px rgba(0,0,0,.3);
+  transform: translateY(-2px);
+}
