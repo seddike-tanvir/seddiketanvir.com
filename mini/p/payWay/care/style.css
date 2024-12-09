@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     user-select: none;
+    font-family: var(--bn_font_13);
 }
 html{
     /* overflow-x: hidden; */
@@ -73,7 +74,7 @@ a{
 }
 .site_logo a{
     color: rgb(255, 255, 255);
-
+    font-family: var(--bn_font_4);
 }
 .site_logo span{
     font-family: var(--bn_font_4);
@@ -118,123 +119,36 @@ a{
 .main{
     padding: 0;
     margin-top: 2rem;
+    min-height: 50vh;
+    /* height: 60vh; */
 }
-.infoBox{
-    width: 90vw;
-    margin: 0 auto;
-}
-.infoBox_sub1{
-    width: 85vw;
-    margin: 0 auto;
-    margin-bottom: 7vh;
-}
-#c1{
-    font-size: 1.2rem;
-    font-weight: 1000;
-    text-align: left;
-    font-family: var(--bn_font_4);
-    margin: 0;
-    color: #58f8b5c2;
-}
-#c1 span{
-    font-weight: 100;
-    font-size: 1rem;
-}
-.card_1{
-    margin-top: .5rem;
-    padding: 0rem 1.2rem;
-}
-.line{
-    font-size: 1rem;
-    /* font-weight: 550; */
-    /* font-family: var(--bn_font_7); */
-    border: 1px solid;
-    border-radius: 12px;
-    padding: .5rem 1.5rem;
-    display: inline-block;
-    margin: 10px 5px;
-    /* text-align: left; */
-    /* color: var(--color_1); */
-
-}
-.line_tika_1{
-    font-size: 1rem ;
-    font-weight: 200;
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-}
-
-
-
-
-
-
-.infoBox_sub2{
+.carebox{
     width: 85vw;
     margin: 0 auto;
 }
-
-.card_wrapper{
-    width: 90vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content:flex-start;
-    /* flex-direction:column; */
-    flex-wrap: wrap;
-    padding-left: 2vw ;
+.carebox > .h3{
+    color: #cdddfd;
+    font-family: var(--bn_font_3);
+    font-size: 1.1rem;
 }
-.card_2{
-    border: 1px solid #ffffffbb;
-    /* background-color: ; */
-    border-radius: 19px;
-    padding: 1rem 1.2rem;
-    /* display: inline-block; */
-    margin: 16px 15px;
+.carebox > .h3 > span{
+    color: #cdddfd;
+    font-family: var(--bn_font_3);
+    padding:  .3rem 0rem 0rem 8vw;
+    display: block;
 }
-.card_line_1{
-    font-size: 1.5rem;
-    /* font-weight: 510; */
-    text-align: center;
-    font-family: var(--bn_font_7);
-    color: var(--color_1);
-    margin: 0px 0px 16px 0px;
+.carebox > .h3 > a,
+.carebox > .h3 > a > button{
+    cursor: pointer;
+    font-family: var(--bn_font_5);
 }
-.line,
-.card_line_2,
-.card_line_3,
-.card_line_4,
-.card_line_5{
-    font-size: 1.2rem;
-    text-align: left;
-    /* color: #85FFBD; */
-    font-weight: 550;
-    font-family: var(--bn_font_7);
-    color: var(--color_1);
+.carebox > .h3 > a > button{
+    padding: 2px 8px;
+    border: none;
+    border-radius: 2px;
+    background-color: #e3ecfd;
+    font-size: 1rem;
 }
-.card_line_2{
-    margin: 10px 0px 0px 0px;
-}
-.line_tika_1,
-.line_tika_2{
-    font-size: 1.2rem;
-    font-weight: 200;
-    font-family: "Roboto Mono";
-    font-optical-sizing: auto;
-    display: inline-block;
-    margin-left: 1rem;
-    user-select: text;
-    /* transition: .3s; */
-}
-
-.line_tika_1:hover,
-.line_tika_2:hover,
-.line_tika_1::after,
-.line_tika_2::after{
-    color: rgb(20, 226, 82);
-}
-
-
-
 
 
 
